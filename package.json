@@ -1,5 +1,5 @@
 {
-  "name": "react-native-masked-input",
+  "name": "@rahulwadhwa238/react-native-masked-input",
   "version": "0.1.0",
   "description": "React Native Library for Masked Input Component",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "rahulwadhwa238",
     "react-native-masked-input",
     "masked-input",
     "custom-input"
@@ -20,5 +21,13 @@
     "react-native-responsive-screen": "^1.4.2",
     "react-native-safe-area-context": "^3.3.0",
     "react-native-vector-icons": "^8.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "rahulwadhwa238/react-native-masked-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulwadhwa238/react-native-masked-input/issues"
+  },
+  "homepage": "https://github.com/rahulwadhwa238/react-native-masked-input#readme"
 }
