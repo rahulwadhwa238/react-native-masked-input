@@ -26,7 +26,7 @@ Install and setup the dependency `react-native-elements` by following <a href='h
 1.  Import @rahulwadhwa238/react-native-masked-input:
 
 ```javascript
-import MaskedInput from 'react-native-masked-input';
+import MaskedInput from '@rahulwadhwa238/react-native-masked-input';
 ```
 
 2.  Create a component and set mask as shown below:
@@ -57,7 +57,7 @@ function WrapperComponent() {
 }
 ```
 
-The `onChangeText` prop is the only prop you'll really need to make the masked input work: you should control this prop value by saving it in your wrapper component state and setting it.
+The `onChangeText` prop is the only prop you'll really need to make the masked input work: you should control this prop value by saving it in your wrapper component state.
 
 ## A complete example
 
