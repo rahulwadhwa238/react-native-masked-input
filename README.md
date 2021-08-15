@@ -17,13 +17,13 @@ The goal of `react-native-masked-input` is expanding the default react-native `T
 
 ## Setup
 
-This library is available on npm, install it with: `npm i react-native-masked-input` or `yarn add react-native-masked-input`.
+This library is available on npm, install it with: `npm i @rahulwadhwa238/react-native-masked-input` or `yarn add @rahulwadhwa238/react-native-masked-input`.
 
 Install and setup the dependency `react-native-elements` by following <a href='https://reactnativeelements.com/docs/'>these instructions</a>.
 
 ## Usage
 
-1.  Import react-native-masked-input:
+1.  Import @rahulwadhwa238/react-native-masked-input:
 
 ```javascript
 import MaskedInput from 'react-native-masked-input';
@@ -67,7 +67,7 @@ The masked input style is set by the `mask` prop and `onChangeText` prop can be 
 ```javascript
 import React, { useState } from 'react'
 import { View } from 'react-native'
-import MaskedInput from './MaskedInput'
+import MaskedInput from '@rahulwadhwa238/react-native-masked-input'
 
 export default function MaskedInputExample() {
 
