@@ -90,8 +90,8 @@ For a more complex example take a look at the `/example` directory.
 
 | Name                           | Type             | Default                        | Description                                                                                                                                |
 | ------------------------------ | ---------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| mask                    | string |     '9-9-9-9'                |        String that is used to customise masked input.                                                                                                           |
-| onChangeText                    | function |                     |        Callback that is called when the masked input's text changes.                                                                                                                |
+| mask                    | string |     '9-9-9-9'                |        String that is used to customise `MaskedInput`.                                                                                                           |
+| onChangeText                    | function |                     |        Callback that is called when the `MaskedInput`'s text changes.                                                                                                                |
 | contentContainerStyle              | style           |                             | Style prop for `MaskedInput` Component Container.                                                                                                |
 | containerStyle                   | style|                 | Style prop for `MaskedInput` Container.                                                                                                                       |
 | inputContainerStyle             | style           |                              |     Style prop for `MaskedInput` Input Container.                                                                                           |
