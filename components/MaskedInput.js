@@ -60,7 +60,7 @@ export default function MaskedInput(
             Promise.resolve()
                 .then(() => { setMobileNumber(mobileNum) })
                 .then(() => {
-                    if (focus < mask.length - 1)
+                    if (focus < mask.length - 1 && mobileNumber[focus])
                         focusNext(focus)
                     setCounter(counter + 1)
                 })
@@ -71,11 +71,18 @@ export default function MaskedInput(
         if (focus != 0) {
             if (key == 'Backspace') {
                 let mobileNum = mobileNumber
-                mobileNum[focus] = ''
-                mobileNum[focus - 1] = ''
-                setMobileNumber(mobileNum)
-                focusPrev(focus)
-                clearPrev(focus)
+                if (!mobileNum[focus] || mobileNum[focus] == '') {
+                    mobileNum[focus] = ''
+                    mobileNum[focus - 1] = ''
+                    setMobileNumber(mobileNum)
+                    focusPrev(focus)
+                    clearPrev(focus)
+                }
+                else {
+                    mobileNum[focus] = ''
+                    setMobileNumber(mobileNum)
+                }
+
                 setCounter(counter - 1)
             }
         }
