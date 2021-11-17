@@ -1,6 +1,6 @@
 {
   "name": "@rahulwadhwa238/react-native-masked-input",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "React Native Library for Masked Input Component",
   "main": "index.js",
   "scripts": {
